@@ -6,7 +6,7 @@
 /*   By: mmovundl <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/20 11:11:14 by mmovundl          #+#    #+#             */
-/*   Updated: 2019/07/03 18:34:28 by mmovundl         ###   ########.fr       */
+/*   Updated: 2019/09/12 14:21:21 by mmovundl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,4 +74,5 @@ void	ft_strdel(char **as);
 char	*ft_itoa(int n);
 size_t	ft_nlen(int n);
 int		ft_strspace(char const *s);
+int		ft_strstart(char *str, int c);
 #endif
